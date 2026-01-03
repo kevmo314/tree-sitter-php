@@ -53,6 +53,7 @@ jobs:
           test-node: true
           test-python: false
           test-go: true
+          go-version: "1.23"
           test-swift: false
       - name: Parse examples
         id: test
